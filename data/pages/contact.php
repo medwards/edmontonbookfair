@@ -1,3 +1,3 @@
-<h2>Contact</h2>
-<p>You can contact Kalyan ( <a href='http://KalyanChakravarthy.net'>Website</a>, <a href='mailto:kalyan@KalyanChakravarthy.net'>Email</a> ) for feedback, bug reports, tips, feature-requests etc., etc.</p>
-<p>Or even better you can post it on NanoCMS Forums ( <a href='http://nanocms.in/forums'> http://nanocms.in/forums</a> )</p>
+<h3>contact</h3>
+<p>You can contact the Collective ( <a href='mailto:edmontonanarchistbookfair@gmail.com'>Email</a> ) regarding events, media coverage, or just to help out!.</p>
+<p>We also have a <a href="http://www.facebook.com/pages/Edmonton-Anarchist-Bookfair/">Facebook fan page</a> and a <a href="http://www.myspace.com/edmontonanarchistbookfair">MySpace page</a> if you want to keep up using those</p>

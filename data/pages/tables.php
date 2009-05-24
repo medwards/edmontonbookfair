@@ -1,5 +1,5 @@
 <h3>tables</h3>
-<a href="#" onclick="new Effect.Fade(this, { queue: 'end' }); new Effect.SlideDown('old-tables', { queue: 'end' }); return false;">
+<a href="#" onclick="new Effect.toggle('old-tables', 'slide'); return false;">
 	Want to see 2008 tables?
 </a>
 <ul id="old-tables" style="display: none;">
@@ -43,8 +43,8 @@
 </ul>
 
 <h3>Request a Table</h3>
-<a id="expandform" onclick="document.getElementById('form').style.display = 'block'; document.getElementById('hideform').style.display = 'block'; this.style.display = 'none'; return false;" href="">Click here to fill out the form</a>
-<a id="hideform" style="display: none;" onclick="document.getElementById('form').style.display = 'none'; document.getElementById('expandform').style.display = 'block'; this.style.display = 'none'; return false;" href="">Click here to hide the form</a>
+<a id="expandform" onclick="Effect.toggle('form', 'slide'); return false;" href="">Click here to show/hide the table request form</a>
+
 <form id="form" style="display: none" action="mailto:edmontonanarchistbookfair@gmail.com?subject=EABF Table Request" method="post" enctype="text/plain" >
 	<table>
 		<tr><td style="text-align: right">Name:</td><td><input type="text" name="name" /></td></tr>
