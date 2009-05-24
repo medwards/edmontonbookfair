@@ -1,1 +1,1 @@
-NanoCMS v0.4
+Edmonton Anarchist Bookfair
