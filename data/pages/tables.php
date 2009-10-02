@@ -45,7 +45,8 @@
 <h3>Request a Table</h3>
 <a id="expandform" onclick="Effect.toggle('form', 'slide'); return false;" href="">Click here to show/hide the table request form</a>
 
-<form id="form" style="display: none" action="mailto:edmontonanarchistbookfair@gmail.com?subject=EABF Table Request" method="post" enctype="text/plain" >
+<form id="form" style="display: none" action="send.php" method="post">
+	<input type="hidden" name="type" value="table" />
 	<table>
 		<tr><td style="text-align: right">Name:</td><td><input type="text" name="name" /></td></tr>
 		<tr><td style="text-align: right">Affiliation (if any):</td><td><input type="text" name="affiliation" /></td></tr>

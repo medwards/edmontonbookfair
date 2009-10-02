@@ -12,7 +12,8 @@
 <p>Note: Preference will be given to workshops and presentations that are interactive and directly link topics with Anarchy and/or Anarchism.</p>
 <p>Limited assistance for travel and billeting may be available for out of town presenters. The specific amount will be contingent upon the success of our fundraising.</p>
 <a id="expandform" onclick="new Effect.toggle('form', 'slide'); return false;" href="">Click here to show/hide the form</a>
-<form id="form" style="display: none;" action="mailto:edmontonanarchistbookfair@gmail.com?subject=EABF Workshop Submission" method="post" enctype="text/plain">
+<form id="form" style="display: none;" action="send.php" method="post">
+	<input type="hidden" name="type" value="workshop" />
 	<table style="width: 100%">
 		<tr><td>Presentation (may submit a maximum of two abstracts):</td></tr>
 		<tr><td><textarea name="abstracts" style="width: 100%"></textarea></td></tr>
@@ -73,11 +74,16 @@
 	<input type="submit" name="submit" value="Submit" onclick="if(document.getElementById('form').email.value.length == 0 || document.getElementById('form').email.value == null) { alert('Please fill out your email'); return false; }" /> or <a href="mailto:edmontonanarchistbookfair@gmail.com">email us</a>
 </form>
 
-
+<h1>2009</h1>
 <h3>saturday workshops</h3>
-<a href="" onclick="Effect.toggle('old-sat-workshops', 'slide'); return false;">Want to see 2008 workshops?</a>
-<div id="old-sat-workshops" style="display:none">
+<p>TBA</p>
+<h3>sunday workshops</h3>
+<p>TBA</p>
+
+<a href="" onclick="Effect.toggle('workshops2008', 'slide'); return false;">Want to see 2008 workshops?</a>
+<div id="workshops2008" style="display: none;">
 <h1>2008</h1>
+<h3>saturday workshops</h3>
 <h2>Opening welcome for the 2008 Anarchist Bookfair</h2>
 <p>Short history of the Association of United Ukrainian Canadians, and its tradition as a working class organization.<br />
 by <i>Eugene Plawiuk</i>
@@ -134,13 +140,8 @@ Downstairs</b></p>
 by <i>Alex C</i><br />
 <b>5:45 - 7:00 pm<br />
 Downstairs</b></p>
-</div>
-
 
 <h3>sunday workshops</h3>
-<a href="" onclick="Effect.toggle('old-sun-workshops', 'slide'); return false;">Want to see 2008 workshops?</a>
-<div id="old-sun-workshops" style="display: none;">
-<h1>2008</h1>
 <h2>doors open</h2>
 <p><b>12:00 pm</b></p>
 
